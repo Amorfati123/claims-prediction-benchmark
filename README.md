@@ -36,7 +36,7 @@ docs/             reproduction notes and the TRIPOD+AI checklist
 ## Installation
 
 ```bash
-git clone [REPOSITORY URL]
+git clone https://github.com/Amorfati123/claims-prediction-benchmark.git
 cd claims-prediction-benchmark
 pip install -e ".[dev]"
 ```
