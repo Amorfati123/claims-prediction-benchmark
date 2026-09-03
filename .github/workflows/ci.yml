@@ -1,0 +1,26 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check src scripts tests synthetic
+      - name: Test
+        run: pytest -q
+      - name: Regenerate tables and figures from the committed results
+        run: |
+          python scripts/03_compare_selection_rules.py
+          python scripts/04_make_tables.py
+          python scripts/05_make_figures.py

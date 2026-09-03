@@ -1,0 +1,721 @@
+Outcome,Variant,Sex,Model,predicted,observed,n
+Combined,PostIndex,Women,Penalised logistic regression,0.1906046796546084,0.11206896551724138,116
+Combined,PostIndex,Women,Penalised logistic regression,0.2311405028248986,0.25,116
+Combined,PostIndex,Women,Penalised logistic regression,0.26762676963555226,0.23275862068965517,116
+Combined,PostIndex,Women,Penalised logistic regression,0.29783110058939344,0.23275862068965517,116
+Combined,PostIndex,Women,Penalised logistic regression,0.3386829726571264,0.35344827586206895,116
+Combined,PostIndex,Women,Penalised logistic regression,0.39117195612383326,0.4224137931034483,116
+Combined,PostIndex,Women,Penalised logistic regression,0.487240898427411,0.46551724137931033,116
+Combined,PostIndex,Women,Penalised logistic regression,0.6479780337223161,0.6637931034482759,116
+Combined,PostIndex,Women,Penalised logistic regression,0.7992574647998965,0.8956521739130435,115
+Combined,PostIndex,Women,Penalised logistic regression,0.9120453055155116,0.9217391304347826,115
+Combined,PostIndex,Women,Random forest,0.18024840389186933,0.14655172413793102,116
+Combined,PostIndex,Women,Random forest,0.253262743079567,0.19827586206896552,116
+Combined,PostIndex,Women,Random forest,0.29954302739193733,0.3017241379310345,116
+Combined,PostIndex,Women,Random forest,0.3519217487228686,0.3103448275862069,116
+Combined,PostIndex,Women,Random forest,0.4073574753129655,0.3103448275862069,116
+Combined,PostIndex,Women,Random forest,0.4626270739196472,0.47413793103448276,116
+Combined,PostIndex,Women,Random forest,0.5196678327335603,0.45689655172413796,116
+Combined,PostIndex,Women,Random forest,0.5891544525487734,0.6810344827586207,116
+Combined,PostIndex,Women,Random forest,0.660935616793758,0.7913043478260869,115
+Combined,PostIndex,Women,Random forest,0.7601204975643135,0.8782608695652174,115
+Combined,PostIndex,Women,Neural network,0.0567710516564229,0.14655172413793102,116
+Combined,PostIndex,Women,Neural network,0.12435900686005738,0.22413793103448276,116
+Combined,PostIndex,Women,Neural network,0.19218939769502302,0.25862068965517243,116
+Combined,PostIndex,Women,Neural network,0.2541525526163105,0.41379310344827586,116
+Combined,PostIndex,Women,Neural network,0.32543707755726925,0.3448275862068966,116
+Combined,PostIndex,Women,Neural network,0.428859451566486,0.43103448275862066,116
+Combined,PostIndex,Women,Neural network,0.5563649214035636,0.4482758620689655,116
+Combined,PostIndex,Women,Neural network,0.6974233759573503,0.6810344827586207,116
+Combined,PostIndex,Women,Neural network,0.8390978127321796,0.7304347826086957,115
+Combined,PostIndex,Women,Neural network,0.9404164629955127,0.8695652173913043,115
+Combined,PostIndex,Women,XGBoost,0.011861080303788185,0.19827586206896552,116
+Combined,PostIndex,Women,XGBoost,0.03261261433362961,0.20689655172413793,116
+Combined,PostIndex,Women,XGBoost,0.06219063699245453,0.2413793103448276,116
+Combined,PostIndex,Women,XGBoost,0.11999284476041794,0.33620689655172414,116
+Combined,PostIndex,Women,XGBoost,0.22489798069000244,0.3103448275862069,116
+Combined,PostIndex,Women,XGBoost,0.3738088309764862,0.4051724137931034,116
+Combined,PostIndex,Women,XGBoost,0.6367760300636292,0.5172413793103449,116
+Combined,PostIndex,Women,XGBoost,0.8726087212562561,0.603448275862069,116
+Combined,PostIndex,Women,XGBoost,0.9661611914634705,0.808695652173913,115
+Combined,PostIndex,Women,XGBoost,0.9916476607322693,0.9217391304347826,115
+Combined,PostIndex,Women,Gradient boosting,0.16767994384877877,0.10344827586206896,116
+Combined,PostIndex,Women,Gradient boosting,0.20667311177429462,0.20689655172413793,116
+Combined,PostIndex,Women,Gradient boosting,0.2406577007105693,0.2672413793103448,116
+Combined,PostIndex,Women,Gradient boosting,0.2762050784872136,0.29310344827586204,116
+Combined,PostIndex,Women,Gradient boosting,0.3162935354174845,0.31896551724137934,116
+Combined,PostIndex,Women,Gradient boosting,0.39160533214472815,0.46551724137931033,116
+Combined,PostIndex,Women,Gradient boosting,0.5586840771774161,0.4224137931034483,116
+Combined,PostIndex,Women,Gradient boosting,0.7211828590119979,0.7068965517241379,116
+Combined,PostIndex,Women,Gradient boosting,0.81865824499533,0.8347826086956521,115
+Combined,PostIndex,Women,Gradient boosting,0.8703372014434403,0.9304347826086956,115
+Combined,PostIndex,Women,Histogram gradient boosting,0.1290978832776768,0.1206896551724138,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.17569267961836627,0.2413793103448276,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.22135543653706158,0.16379310344827586,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.2680003198747909,0.29310344827586204,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.3224214439067243,0.3793103448275862,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.40378799497849366,0.43103448275862066,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.5535589326546904,0.4482758620689655,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.7291772538562437,0.6810344827586207,116
+Combined,PostIndex,Women,Histogram gradient boosting,0.8436710879002799,0.8434782608695652,115
+Combined,PostIndex,Women,Histogram gradient boosting,0.9160594509964778,0.9478260869565217,115
+Combined,PostIndex,Women,Bagging,0.18230490018148812,0.13793103448275862,116
+Combined,PostIndex,Women,Bagging,0.24686932849364787,0.22413793103448276,116
+Combined,PostIndex,Women,Bagging,0.2899727767695099,0.31896551724137934,116
+Combined,PostIndex,Women,Bagging,0.32931034482758614,0.27586206896551724,116
+Combined,PostIndex,Women,Bagging,0.37731397459165156,0.3448275862068966,116
+Combined,PostIndex,Women,Bagging,0.4402450090744103,0.3275862068965517,116
+Combined,PostIndex,Women,Bagging,0.5355263157894737,0.5086206896551724,116
+Combined,PostIndex,Women,Bagging,0.6415607985480947,0.6982758620689655,116
+Combined,PostIndex,Women,Bagging,0.7152860411899312,0.8,115
+Combined,PostIndex,Women,Bagging,0.7901601830663615,0.9130434782608695,115
+Combined,PostIndex,Women,SGD classifier,0.06706603991325098,0.20689655172413793,116
+Combined,PostIndex,Women,SGD classifier,0.1279416850158907,0.23275862068965517,116
+Combined,PostIndex,Women,SGD classifier,0.18851891515796193,0.1810344827586207,116
+Combined,PostIndex,Women,SGD classifier,0.26165109678806125,0.29310344827586204,116
+Combined,PostIndex,Women,SGD classifier,0.3433771691617109,0.3793103448275862,116
+Combined,PostIndex,Women,SGD classifier,0.4313411756217087,0.4224137931034483,116
+Combined,PostIndex,Women,SGD classifier,0.5703237021377938,0.47413793103448276,116
+Combined,PostIndex,Women,SGD classifier,0.7234836128802647,0.5948275862068966,116
+Combined,PostIndex,Women,SGD classifier,0.8710077854488931,0.8260869565217391,115
+Combined,PostIndex,Women,SGD classifier,0.9718886792073678,0.9391304347826087,115
+Combined,PostIndex,Women,K-nearest neighbors,0.1148938303553627,0.3448275862068966,116
+Combined,PostIndex,Women,K-nearest neighbors,0.21652111648416306,0.33620689655172414,116
+Combined,PostIndex,Women,K-nearest neighbors,0.2749276282212171,0.3879310344827586,116
+Combined,PostIndex,Women,K-nearest neighbors,0.32884585076392026,0.39655172413793105,116
+Combined,PostIndex,Women,K-nearest neighbors,0.35039226067332335,0.5,116
+Combined,PostIndex,Women,K-nearest neighbors,0.4282939641990195,0.45689655172413796,116
+Combined,PostIndex,Women,K-nearest neighbors,0.4506282138815813,0.5258620689655172,116
+Combined,PostIndex,Women,K-nearest neighbors,0.5304451599065496,0.5,116
+Combined,PostIndex,Women,K-nearest neighbors,0.5919109930514959,0.5304347826086957,115
+Combined,PostIndex,Women,K-nearest neighbors,0.7160225270207343,0.5652173913043478,115
+Combined,PostIndex,Men,Penalised logistic regression,0.13245022552816796,0.1320754716981132,106
+Combined,PostIndex,Men,Penalised logistic regression,0.17747325336755035,0.14150943396226415,106
+Combined,PostIndex,Men,Penalised logistic regression,0.21517990506124124,0.21904761904761905,105
+Combined,PostIndex,Men,Penalised logistic regression,0.260497906170476,0.2571428571428571,105
+Combined,PostIndex,Men,Penalised logistic regression,0.3191611835454787,0.3523809523809524,105
+Combined,PostIndex,Men,Penalised logistic regression,0.3836141128408089,0.42857142857142855,105
+Combined,PostIndex,Men,Penalised logistic regression,0.4798754170509455,0.49523809523809526,105
+Combined,PostIndex,Men,Penalised logistic regression,0.6470155181068272,0.6666666666666666,105
+Combined,PostIndex,Men,Penalised logistic regression,0.8131910215948094,0.8476190476190476,105
+Combined,PostIndex,Men,Penalised logistic regression,0.9433886473308213,0.8285714285714286,105
+Combined,PostIndex,Men,Random forest,0.16880316532386136,0.11320754716981132,106
+Combined,PostIndex,Men,Random forest,0.23571683397741547,0.19811320754716982,106
+Combined,PostIndex,Men,Random forest,0.28817432749939237,0.14285714285714285,105
+Combined,PostIndex,Men,Random forest,0.34136432256605714,0.4,105
+Combined,PostIndex,Men,Random forest,0.38885345318104775,0.3333333333333333,105
+Combined,PostIndex,Men,Random forest,0.44174721368831443,0.4095238095238095,105
+Combined,PostIndex,Men,Random forest,0.5082232429665966,0.580952380952381,105
+Combined,PostIndex,Men,Random forest,0.5791803768795891,0.6190476190476191,105
+Combined,PostIndex,Men,Random forest,0.661292128028475,0.8,105
+Combined,PostIndex,Men,Random forest,0.7790395376943334,0.7714285714285715,105
+Combined,PostIndex,Men,Neural network,0.0922480492152561,0.16981132075471697,106
+Combined,PostIndex,Men,Neural network,0.16146578774529247,0.22641509433962265,106
+Combined,PostIndex,Men,Neural network,0.20756930003254628,0.22857142857142856,105
+Combined,PostIndex,Men,Neural network,0.26476678971193746,0.24761904761904763,105
+Combined,PostIndex,Men,Neural network,0.32799593127788507,0.37142857142857144,105
+Combined,PostIndex,Men,Neural network,0.4158408053411864,0.4,105
+Combined,PostIndex,Men,Neural network,0.5063253485555663,0.5238095238095238,105
+Combined,PostIndex,Men,Neural network,0.6266353754192889,0.6190476190476191,105
+Combined,PostIndex,Men,Neural network,0.7711239131258968,0.7714285714285715,105
+Combined,PostIndex,Men,Neural network,0.9296456475138074,0.8095238095238095,105
+Combined,PostIndex,Men,XGBoost,0.0035940951202064753,0.1509433962264151,106
+Combined,PostIndex,Men,XGBoost,0.013676675036549568,0.19811320754716982,106
+Combined,PostIndex,Men,XGBoost,0.03056127205491066,0.2,105
+Combined,PostIndex,Men,XGBoost,0.05838634818792343,0.2571428571428571,105
+Combined,PostIndex,Men,XGBoost,0.1232275441288948,0.3333333333333333,105
+Combined,PostIndex,Men,XGBoost,0.3058619201183319,0.37142857142857144,105
+Combined,PostIndex,Men,XGBoost,0.654022753238678,0.5047619047619047,105
+Combined,PostIndex,Men,XGBoost,0.8863983750343323,0.6761904761904762,105
+Combined,PostIndex,Men,XGBoost,0.9752125144004822,0.7714285714285715,105
+Combined,PostIndex,Men,XGBoost,0.9967734217643738,0.9047619047619048,105
+Combined,PostIndex,Men,Gradient boosting,0.12984964915994007,0.1509433962264151,106
+Combined,PostIndex,Men,Gradient boosting,0.17292201021580794,0.16981132075471697,106
+Combined,PostIndex,Men,Gradient boosting,0.2098955663978735,0.22857142857142856,105
+Combined,PostIndex,Men,Gradient boosting,0.2480661277309799,0.21904761904761905,105
+Combined,PostIndex,Men,Gradient boosting,0.2999904353069152,0.3047619047619048,105
+Combined,PostIndex,Men,Gradient boosting,0.37432374366431853,0.4095238095238095,105
+Combined,PostIndex,Men,Gradient boosting,0.5220959290983279,0.5047619047619047,105
+Combined,PostIndex,Men,Gradient boosting,0.7114083714240811,0.6761904761904762,105
+Combined,PostIndex,Men,Gradient boosting,0.8305269191234441,0.780952380952381,105
+Combined,PostIndex,Men,Gradient boosting,0.9038884768131953,0.9238095238095239,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.12763411521260248,0.10377358490566038,106
+Combined,PostIndex,Men,Histogram gradient boosting,0.16875379846329705,0.16037735849056603,106
+Combined,PostIndex,Men,Histogram gradient boosting,0.2032610924552068,0.2571428571428571,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.24052395009141803,0.29523809523809524,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.290732671567953,0.24761904761904763,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.36725972520663314,0.44761904761904764,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.5215217874981815,0.4857142857142857,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.717436187800654,0.6095238095238096,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.8370760325364252,0.8476190476190476,105
+Combined,PostIndex,Men,Histogram gradient boosting,0.9120430493468965,0.9142857142857143,105
+Combined,PostIndex,Men,Bagging,0.1439622641509434,0.11320754716981132,106
+Combined,PostIndex,Men,Bagging,0.21080188679245282,0.1792452830188679,106
+Combined,PostIndex,Men,Bagging,0.26409523809523816,0.2571428571428571,105
+Combined,PostIndex,Men,Bagging,0.3081428571428571,0.34285714285714286,105
+Combined,PostIndex,Men,Bagging,0.3505238095238095,0.29523809523809524,105
+Combined,PostIndex,Men,Bagging,0.4018095238095238,0.3333333333333333,105
+Combined,PostIndex,Men,Bagging,0.5101428571428572,0.5238095238095238,105
+Combined,PostIndex,Men,Bagging,0.6642380952380953,0.7047619047619048,105
+Combined,PostIndex,Men,Bagging,0.7483809523809524,0.7619047619047619,105
+Combined,PostIndex,Men,Bagging,0.8402857142857143,0.8571428571428571,105
+Combined,PostIndex,Men,SGD classifier,0.04715904987612957,0.16037735849056603,106
+Combined,PostIndex,Men,SGD classifier,0.10358045957050865,0.18867924528301888,106
+Combined,PostIndex,Men,SGD classifier,0.15258508181730182,0.26666666666666666,105
+Combined,PostIndex,Men,SGD classifier,0.21810651946085038,0.22857142857142856,105
+Combined,PostIndex,Men,SGD classifier,0.31186383488271946,0.34285714285714286,105
+Combined,PostIndex,Men,SGD classifier,0.42404751557193027,0.41904761904761906,105
+Combined,PostIndex,Men,SGD classifier,0.5637687990096706,0.5047619047619047,105
+Combined,PostIndex,Men,SGD classifier,0.7231507656695032,0.6571428571428571,105
+Combined,PostIndex,Men,SGD classifier,0.8849048477145833,0.7714285714285715,105
+Combined,PostIndex,Men,SGD classifier,0.9735013582474681,0.8285714285714286,105
+Combined,PostIndex,Men,K-nearest neighbors,0.14907143142928958,0.3584905660377358,106
+Combined,PostIndex,Men,K-nearest neighbors,0.24062654469388658,0.42452830188679247,106
+Combined,PostIndex,Men,K-nearest neighbors,0.2805431482501401,0.37142857142857144,105
+Combined,PostIndex,Men,K-nearest neighbors,0.32966934732482644,0.38095238095238093,105
+Combined,PostIndex,Men,K-nearest neighbors,0.3581462466687457,0.4380952380952381,105
+Combined,PostIndex,Men,K-nearest neighbors,0.3961468169249265,0.3523809523809524,105
+Combined,PostIndex,Men,K-nearest neighbors,0.43343375012082896,0.4380952380952381,105
+Combined,PostIndex,Men,K-nearest neighbors,0.47830076812133726,0.41904761904761906,105
+Combined,PostIndex,Men,K-nearest neighbors,0.5432806140497786,0.5428571428571428,105
+Combined,PostIndex,Men,K-nearest neighbors,0.662953950135045,0.638095238095238,105
+Combined,Baseline,Women,Penalised logistic regression,0.18423046740872193,0.1810344827586207,116
+Combined,Baseline,Women,Penalised logistic regression,0.2684076592325963,0.27586206896551724,116
+Combined,Baseline,Women,Penalised logistic regression,0.32514016252648426,0.4224137931034483,116
+Combined,Baseline,Women,Penalised logistic regression,0.37300653842227105,0.3879310344827586,116
+Combined,Baseline,Women,Penalised logistic regression,0.4177965885942222,0.3706896551724138,116
+Combined,Baseline,Women,Penalised logistic regression,0.4755690250678318,0.4827586206896552,116
+Combined,Baseline,Women,Penalised logistic regression,0.5279768767928228,0.5431034482758621,116
+Combined,Baseline,Women,Penalised logistic regression,0.5814834098610526,0.5948275862068966,116
+Combined,Baseline,Women,Penalised logistic regression,0.6490245902461691,0.6347826086956522,115
+Combined,Baseline,Women,Penalised logistic regression,0.7650673964464816,0.6521739130434783,115
+Combined,Baseline,Women,Random forest,0.3173618469413592,0.20689655172413793,116
+Combined,Baseline,Women,Random forest,0.3511670045830653,0.3275862068965517,116
+Combined,Baseline,Women,Random forest,0.37399125485559237,0.35344827586206895,116
+Combined,Baseline,Women,Random forest,0.39445037783686726,0.41379310344827586,116
+Combined,Baseline,Women,Random forest,0.4181707984916738,0.5086206896551724,116
+Combined,Baseline,Women,Random forest,0.4451474241244314,0.43103448275862066,116
+Combined,Baseline,Women,Random forest,0.4874529304891824,0.5,116
+Combined,Baseline,Women,Random forest,0.5276266472565347,0.603448275862069,116
+Combined,Baseline,Women,Random forest,0.5576815625163336,0.5304347826086957,115
+Combined,Baseline,Women,Random forest,0.601498378839537,0.6695652173913044,115
+Combined,Baseline,Women,Neural network,0.06783506904288462,0.2413793103448276,116
+Combined,Baseline,Women,Neural network,0.1852482375484525,0.4051724137931034,116
+Combined,Baseline,Women,Neural network,0.2783389524105861,0.3448275862068966,116
+Combined,Baseline,Women,Neural network,0.35965278834466524,0.39655172413793105,116
+Combined,Baseline,Women,Neural network,0.42440230386123806,0.4396551724137931,116
+Combined,Baseline,Women,Neural network,0.4860684987386712,0.4482758620689655,116
+Combined,Baseline,Women,Neural network,0.5393071391372528,0.5258620689655172,116
+Combined,Baseline,Women,Neural network,0.628607510957392,0.5172413793103449,116
+Combined,Baseline,Women,Neural network,0.7258910051275694,0.6347826086956522,115
+Combined,Baseline,Women,Neural network,0.862669037488778,0.591304347826087,115
+Combined,Baseline,Women,XGBoost,0.006245523225516081,0.27586206896551724,116
+Combined,Baseline,Women,XGBoost,0.02834806591272354,0.31896551724137934,116
+Combined,Baseline,Women,XGBoost,0.07214702665805817,0.3793103448275862,116
+Combined,Baseline,Women,XGBoost,0.1440258026123047,0.33620689655172414,116
+Combined,Baseline,Women,XGBoost,0.25260019302368164,0.5258620689655172,116
+Combined,Baseline,Women,XGBoost,0.4109097421169281,0.4396551724137931,116
+Combined,Baseline,Women,XGBoost,0.6086176037788391,0.5431034482758621,116
+Combined,Baseline,Women,XGBoost,0.7941080927848816,0.5258620689655172,116
+Combined,Baseline,Women,XGBoost,0.9128980040550232,0.5565217391304348,115
+Combined,Baseline,Women,XGBoost,0.9782830476760864,0.6434782608695652,115
+Combined,Baseline,Women,Gradient boosting,0.19740746553036348,0.22413793103448276,116
+Combined,Baseline,Women,Gradient boosting,0.27211895095874267,0.3017241379310345,116
+Combined,Baseline,Women,Gradient boosting,0.3256703237831358,0.3620689655172414,116
+Combined,Baseline,Women,Gradient boosting,0.3747233208532233,0.39655172413793105,116
+Combined,Baseline,Women,Gradient boosting,0.4226509217024736,0.4051724137931034,116
+Combined,Baseline,Women,Gradient boosting,0.4698760400968057,0.5172413793103449,116
+Combined,Baseline,Women,Gradient boosting,0.5149928976849314,0.46551724137931033,116
+Combined,Baseline,Women,Gradient boosting,0.5690766375368149,0.6293103448275862,116
+Combined,Baseline,Women,Gradient boosting,0.6295723856708567,0.6086956521739131,115
+Combined,Baseline,Women,Gradient boosting,0.7224659594241856,0.6347826086956522,115
+Combined,Baseline,Women,Histogram gradient boosting,0.20222623303553858,0.25,116
+Combined,Baseline,Women,Histogram gradient boosting,0.2777980278724564,0.3017241379310345,116
+Combined,Baseline,Women,Histogram gradient boosting,0.3365715515840537,0.3448275862068966,116
+Combined,Baseline,Women,Histogram gradient boosting,0.38422389905714605,0.4224137931034483,116
+Combined,Baseline,Women,Histogram gradient boosting,0.42553067097834746,0.41379310344827586,116
+Combined,Baseline,Women,Histogram gradient boosting,0.46755459542576583,0.4396551724137931,116
+Combined,Baseline,Women,Histogram gradient boosting,0.5149734824394359,0.49137931034482757,116
+Combined,Baseline,Women,Histogram gradient boosting,0.5641049486817773,0.5431034482758621,116
+Combined,Baseline,Women,Histogram gradient boosting,0.6173350571412475,0.6521739130434783,115
+Combined,Baseline,Women,Histogram gradient boosting,0.7012307594615173,0.6869565217391305,115
+Combined,Baseline,Women,Bagging,0.22990018148820326,0.2413793103448276,116
+Combined,Baseline,Women,Bagging,0.3144283121597097,0.28448275862068967,116
+Combined,Baseline,Women,Bagging,0.3654264972776771,0.4482758620689655,116
+Combined,Baseline,Women,Bagging,0.4070780399274046,0.3448275862068966,116
+Combined,Baseline,Women,Bagging,0.44092558983666064,0.3879310344827586,116
+Combined,Baseline,Women,Bagging,0.4770417422867512,0.49137931034482757,116
+Combined,Baseline,Women,Bagging,0.5075317604355717,0.5172413793103449,116
+Combined,Baseline,Women,Bagging,0.5387477313974592,0.5431034482758621,116
+Combined,Baseline,Women,Bagging,0.579954233409611,0.6434782608695652,115
+Combined,Baseline,Women,Bagging,0.6530892448512586,0.6434782608695652,115
+Combined,Baseline,Women,SGD classifier,0.10135339048545663,0.31896551724137934,116
+Combined,Baseline,Women,SGD classifier,0.17673307893263415,0.3017241379310345,116
+Combined,Baseline,Women,SGD classifier,0.2393793097047948,0.4051724137931034,116
+Combined,Baseline,Women,SGD classifier,0.3170667912011456,0.35344827586206895,116
+Combined,Baseline,Women,SGD classifier,0.3891120665278185,0.47413793103448276,116
+Combined,Baseline,Women,SGD classifier,0.46533210091914456,0.35344827586206895,116
+Combined,Baseline,Women,SGD classifier,0.5512633294744864,0.5862068965517241,116
+Combined,Baseline,Women,SGD classifier,0.6389894893018406,0.5344827586206896,116
+Combined,Baseline,Women,SGD classifier,0.7521066500405235,0.591304347826087,115
+Combined,Baseline,Women,SGD classifier,0.8895051589273371,0.6260869565217392,115
+Combined,Baseline,Women,K-nearest neighbors,0.2057995848849438,0.3620689655172414,116
+Combined,Baseline,Women,K-nearest neighbors,0.2848055228257595,0.3879310344827586,116
+Combined,Baseline,Women,K-nearest neighbors,0.32921626507681223,0.4396551724137931,116
+Combined,Baseline,Women,K-nearest neighbors,0.3677087374318203,0.4224137931034483,116
+Combined,Baseline,Women,K-nearest neighbors,0.39730825046646656,0.4396551724137931,116
+Combined,Baseline,Women,K-nearest neighbors,0.42807349726566424,0.5172413793103449,116
+Combined,Baseline,Women,K-nearest neighbors,0.46040322080184143,0.4482758620689655,116
+Combined,Baseline,Women,K-nearest neighbors,0.5034903798437569,0.47413793103448276,116
+Combined,Baseline,Women,K-nearest neighbors,0.546745054308569,0.5391304347826087,115
+Combined,Baseline,Women,K-nearest neighbors,0.6288637717095664,0.5130434782608696,115
+Combined,Baseline,Men,Penalised logistic regression,0.1873345423923626,0.20754716981132076,106
+Combined,Baseline,Men,Penalised logistic regression,0.2577926653824268,0.27358490566037735,106
+Combined,Baseline,Men,Penalised logistic regression,0.3048344850277536,0.2857142857142857,105
+Combined,Baseline,Men,Penalised logistic regression,0.3509468722878894,0.44761904761904764,105
+Combined,Baseline,Men,Penalised logistic regression,0.3967488512463676,0.3619047619047619,105
+Combined,Baseline,Men,Penalised logistic regression,0.4481138486085889,0.45714285714285713,105
+Combined,Baseline,Men,Penalised logistic regression,0.5039835002356462,0.5523809523809524,105
+Combined,Baseline,Men,Penalised logistic regression,0.5650477987388166,0.5523809523809524,105
+Combined,Baseline,Men,Penalised logistic regression,0.6345550938113079,0.5904761904761905,105
+Combined,Baseline,Men,Penalised logistic regression,0.7439934036179113,0.638095238095238,105
+Combined,Baseline,Men,Random forest,0.30294647615962106,0.20754716981132076,106
+Combined,Baseline,Men,Random forest,0.32505689537302496,0.24528301886792453,106
+Combined,Baseline,Men,Random forest,0.34718748982315534,0.2571428571428571,105
+Combined,Baseline,Men,Random forest,0.3691793418777186,0.4,105
+Combined,Baseline,Men,Random forest,0.3955194751771374,0.4380952380952381,105
+Combined,Baseline,Men,Random forest,0.4440103220641318,0.5047619047619047,105
+Combined,Baseline,Men,Random forest,0.49372128141376087,0.580952380952381,105
+Combined,Baseline,Men,Random forest,0.5320789352016447,0.49523809523809526,105
+Combined,Baseline,Men,Random forest,0.5661564382700476,0.580952380952381,105
+Combined,Baseline,Men,Random forest,0.6085466059216641,0.6571428571428571,105
+Combined,Baseline,Men,Neural network,0.0001028218890464691,0.330188679245283,106
+Combined,Baseline,Men,Neural network,0.0012249590449847165,0.2830188679245283,106
+Combined,Baseline,Men,Neural network,0.006656361528729525,0.38095238095238093,105
+Combined,Baseline,Men,Neural network,0.024234476186935965,0.4857142857142857,105
+Combined,Baseline,Men,Neural network,0.07376095370435447,0.41904761904761906,105
+Combined,Baseline,Men,Neural network,0.21347257852170545,0.4380952380952381,105
+Combined,Baseline,Men,Neural network,0.49297926687971166,0.4666666666666667,105
+Combined,Baseline,Men,Neural network,0.7934504474038394,0.5047619047619047,105
+Combined,Baseline,Men,Neural network,0.9538488477240464,0.4666666666666667,105
+Combined,Baseline,Men,Neural network,0.998166498136047,0.5904761904761905,105
+Combined,Baseline,Men,XGBoost,0.12326414883136749,0.29245283018867924,106
+Combined,Baseline,Men,XGBoost,0.20087768137454987,0.25471698113207547,106
+Combined,Baseline,Men,XGBoost,0.25827571749687195,0.3047619047619048,105
+Combined,Baseline,Men,XGBoost,0.31312295794487,0.45714285714285713,105
+Combined,Baseline,Men,XGBoost,0.37814757227897644,0.45714285714285713,105
+Combined,Baseline,Men,XGBoost,0.45068976283073425,0.45714285714285713,105
+Combined,Baseline,Men,XGBoost,0.5245332717895508,0.5142857142857142,105
+Combined,Baseline,Men,XGBoost,0.6037192344665527,0.5142857142857142,105
+Combined,Baseline,Men,XGBoost,0.6857482194900513,0.4666666666666667,105
+Combined,Baseline,Men,XGBoost,0.8098307847976685,0.6476190476190476,105
+Combined,Baseline,Men,Gradient boosting,0.2070070351690155,0.20754716981132076,106
+Combined,Baseline,Men,Gradient boosting,0.2580209724044239,0.2641509433962264,106
+Combined,Baseline,Men,Gradient boosting,0.3120409506431217,0.3142857142857143,105
+Combined,Baseline,Men,Gradient boosting,0.36132980855876773,0.4,105
+Combined,Baseline,Men,Gradient boosting,0.41036380640540165,0.34285714285714286,105
+Combined,Baseline,Men,Gradient boosting,0.4539697241537059,0.4857142857142857,105
+Combined,Baseline,Men,Gradient boosting,0.5054688706135576,0.5523809523809524,105
+Combined,Baseline,Men,Gradient boosting,0.5667531714974208,0.5904761904761905,105
+Combined,Baseline,Men,Gradient boosting,0.618394808881508,0.580952380952381,105
+Combined,Baseline,Men,Gradient boosting,0.7064033902253942,0.6285714285714286,105
+Combined,Baseline,Men,Histogram gradient boosting,0.19269929608123723,0.22641509433962265,106
+Combined,Baseline,Men,Histogram gradient boosting,0.2527592807435293,0.3018867924528302,106
+Combined,Baseline,Men,Histogram gradient boosting,0.3036442534589155,0.2761904761904762,105
+Combined,Baseline,Men,Histogram gradient boosting,0.3537249666121655,0.3142857142857143,105
+Combined,Baseline,Men,Histogram gradient boosting,0.4023302928049054,0.4380952380952381,105
+Combined,Baseline,Men,Histogram gradient boosting,0.45038481882031284,0.47619047619047616,105
+Combined,Baseline,Men,Histogram gradient boosting,0.5025068454675812,0.5142857142857142,105
+Combined,Baseline,Men,Histogram gradient boosting,0.5560355284415165,0.6095238095238096,105
+Combined,Baseline,Men,Histogram gradient boosting,0.627195675604804,0.5428571428571428,105
+Combined,Baseline,Men,Histogram gradient boosting,0.7302229974067134,0.6666666666666666,105
+Combined,Baseline,Men,Bagging,0.19823899371069179,0.2169811320754717,106
+Combined,Baseline,Men,Bagging,0.2840880503144654,0.2830188679245283,106
+Combined,Baseline,Men,Bagging,0.340952380952381,0.3333333333333333,105
+Combined,Baseline,Men,Bagging,0.3893968253968254,0.3619047619047619,105
+Combined,Baseline,Men,Bagging,0.423936507936508,0.37142857142857144,105
+Combined,Baseline,Men,Bagging,0.46342857142857147,0.5047619047619047,105
+Combined,Baseline,Men,Bagging,0.5037460317460318,0.5333333333333333,105
+Combined,Baseline,Men,Bagging,0.5455238095238096,0.5619047619047619,105
+Combined,Baseline,Men,Bagging,0.5985396825396826,0.5619047619047619,105
+Combined,Baseline,Men,Bagging,0.6973968253968255,0.638095238095238,105
+Combined,Baseline,Men,SGD classifier,0.08275733574808586,0.3018867924528302,106
+Combined,Baseline,Men,SGD classifier,0.1707063189774376,0.27358490566037735,106
+Combined,Baseline,Men,SGD classifier,0.24103705958996063,0.3142857142857143,105
+Combined,Baseline,Men,SGD classifier,0.30942745202647864,0.3523809523809524,105
+Combined,Baseline,Men,SGD classifier,0.3866191135925635,0.41904761904761906,105
+Combined,Baseline,Men,SGD classifier,0.46364732834133165,0.4857142857142857,105
+Combined,Baseline,Men,SGD classifier,0.5455684437713155,0.5142857142857142,105
+Combined,Baseline,Men,SGD classifier,0.6447994614452378,0.5142857142857142,105
+Combined,Baseline,Men,SGD classifier,0.7496487078914517,0.5904761904761905,105
+Combined,Baseline,Men,SGD classifier,0.8744092161189763,0.6,105
+Combined,Baseline,Men,K-nearest neighbors,0.16682322722727663,0.33962264150943394,106
+Combined,Baseline,Men,K-nearest neighbors,0.2526816152751032,0.42452830188679247,106
+Combined,Baseline,Men,K-nearest neighbors,0.29906442070979455,0.4095238095238095,105
+Combined,Baseline,Men,K-nearest neighbors,0.34178566731515414,0.4,105
+Combined,Baseline,Men,K-nearest neighbors,0.37935585669586747,0.4,105
+Combined,Baseline,Men,K-nearest neighbors,0.4164402194387558,0.3904761904761905,105
+Combined,Baseline,Men,K-nearest neighbors,0.45826176573583316,0.5238095238095238,105
+Combined,Baseline,Men,K-nearest neighbors,0.5055340172725565,0.4857142857142857,105
+Combined,Baseline,Men,K-nearest neighbors,0.5633415348456323,0.4666666666666667,105
+Combined,Baseline,Men,K-nearest neighbors,0.6881013284240558,0.5238095238095238,105
+Statins,PostIndex,Women,Penalised logistic regression,0.07643399612430345,0.05172413793103448,116
+Statins,PostIndex,Women,Penalised logistic regression,0.11168831551877177,0.12931034482758622,116
+Statins,PostIndex,Women,Penalised logistic regression,0.1400475484701055,0.1810344827586207,116
+Statins,PostIndex,Women,Penalised logistic regression,0.17032048046109652,0.1896551724137931,116
+Statins,PostIndex,Women,Penalised logistic regression,0.2029464333805335,0.27586206896551724,116
+Statins,PostIndex,Women,Penalised logistic regression,0.23994221693398612,0.25,116
+Statins,PostIndex,Women,Penalised logistic regression,0.29231931361865693,0.21551724137931033,116
+Statins,PostIndex,Women,Penalised logistic regression,0.36482587872319894,0.35344827586206895,116
+Statins,PostIndex,Women,Penalised logistic regression,0.5552286897626622,0.6434782608695652,115
+Statins,PostIndex,Women,Penalised logistic regression,0.8517130350372714,0.8173913043478261,115
+Statins,PostIndex,Women,Random forest,0.10221814541781231,0.08620689655172414,116
+Statins,PostIndex,Women,Random forest,0.15461923012441464,0.15517241379310345,116
+Statins,PostIndex,Women,Random forest,0.19023498069050063,0.16379310344827586,116
+Statins,PostIndex,Women,Random forest,0.2203526101945221,0.25862068965517243,116
+Statins,PostIndex,Women,Random forest,0.25716202075374955,0.16379310344827586,116
+Statins,PostIndex,Women,Random forest,0.3001072752036086,0.25,116
+Statins,PostIndex,Women,Random forest,0.3425692436533398,0.23275862068965517,116
+Statins,PostIndex,Women,Random forest,0.41184397771086856,0.4051724137931034,116
+Statins,PostIndex,Women,Random forest,0.4928084000751671,0.5826086956521739,115
+Statins,PostIndex,Women,Random forest,0.6218528964186454,0.808695652173913,115
+Statins,PostIndex,Women,Neural network,0.02385961614832408,0.1206896551724138,116
+Statins,PostIndex,Women,Neural network,0.050070096669107195,0.08620689655172414,116
+Statins,PostIndex,Women,Neural network,0.07681465176970347,0.22413793103448276,116
+Statins,PostIndex,Women,Neural network,0.11104927058632447,0.19827586206896552,116
+Statins,PostIndex,Women,Neural network,0.1527445186670452,0.21551724137931033,116
+Statins,PostIndex,Women,Neural network,0.20780355733594555,0.3017241379310345,116
+Statins,PostIndex,Women,Neural network,0.28072941730768425,0.23275862068965517,116
+Statins,PostIndex,Women,Neural network,0.3978253300845614,0.3793103448275862,116
+Statins,PostIndex,Women,Neural network,0.5901433676962797,0.5826086956521739,115
+Statins,PostIndex,Women,Neural network,0.8393211015656735,0.7652173913043478,115
+Statins,PostIndex,Women,XGBoost,0.00443642633035779,0.10344827586206896,116
+Statins,PostIndex,Women,XGBoost,0.01048304419964552,0.16379310344827586,116
+Statins,PostIndex,Women,XGBoost,0.01874729059636593,0.19827586206896552,116
+Statins,PostIndex,Women,XGBoost,0.030350295826792717,0.19827586206896552,116
+Statins,PostIndex,Women,XGBoost,0.05070838704705238,0.20689655172413793,116
+Statins,PostIndex,Women,XGBoost,0.08379938453435898,0.19827586206896552,116
+Statins,PostIndex,Women,XGBoost,0.1626022905111313,0.2413793103448276,116
+Statins,PostIndex,Women,XGBoost,0.3526993989944458,0.3879310344827586,116
+Statins,PostIndex,Women,XGBoost,0.7303107380867004,0.4956521739130435,115
+Statins,PostIndex,Women,XGBoost,0.9809097051620483,0.9130434782608695,115
+Statins,PostIndex,Women,Gradient boosting,0.10642111788419145,0.034482758620689655,116
+Statins,PostIndex,Women,Gradient boosting,0.12620693015377266,0.1206896551724138,116
+Statins,PostIndex,Women,Gradient boosting,0.1559146115718827,0.14655172413793102,116
+Statins,PostIndex,Women,Gradient boosting,0.18098083660887684,0.21551724137931033,116
+Statins,PostIndex,Women,Gradient boosting,0.20184822685358036,0.22413793103448276,116
+Statins,PostIndex,Women,Gradient boosting,0.22744583395025308,0.20689655172413793,116
+Statins,PostIndex,Women,Gradient boosting,0.2659800283385351,0.3275862068965517,116
+Statins,PostIndex,Women,Gradient boosting,0.3374497153878648,0.33620689655172414,116
+Statins,PostIndex,Women,Gradient boosting,0.5964029344624941,0.5826086956521739,115
+Statins,PostIndex,Women,Gradient boosting,0.831770799387215,0.9130434782608695,115
+Statins,PostIndex,Women,Histogram gradient boosting,0.06910134632385163,0.06896551724137931,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.09249342609673789,0.12931034482758622,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.1168654439682341,0.12931034482758622,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.14802056642697503,0.25862068965517243,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.17589251708245762,0.21551724137931033,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.2186750569967252,0.2672413793103448,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.27065974554391176,0.23275862068965517,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.37134858967563644,0.3275862068965517,116
+Statins,PostIndex,Women,Histogram gradient boosting,0.6255662296062612,0.5652173913043478,115
+Statins,PostIndex,Women,Histogram gradient boosting,0.8944730674605926,0.9130434782608695,115
+Statins,PostIndex,Women,Bagging,0.06017241379310344,0.07758620689655173,116
+Statins,PostIndex,Women,Bagging,0.11974137931034483,0.1724137931034483,116
+Statins,PostIndex,Women,Bagging,0.15948275862068967,0.15517241379310345,116
+Statins,PostIndex,Women,Bagging,0.19767241379310344,0.21551724137931033,116
+Statins,PostIndex,Women,Bagging,0.23362068965517246,0.1810344827586207,116
+Statins,PostIndex,Women,Bagging,0.2762068965517242,0.25862068965517243,116
+Statins,PostIndex,Women,Bagging,0.3250862068965517,0.29310344827586204,116
+Statins,PostIndex,Women,Bagging,0.4031896551724138,0.3103448275862069,116
+Statins,PostIndex,Women,Bagging,0.5929565217391303,0.5739130434782609,115
+Statins,PostIndex,Women,Bagging,0.8116521739130437,0.8695652173913043,115
+Statins,PostIndex,Women,SGD classifier,0.02944243629425073,0.15517241379310345,116
+Statins,PostIndex,Women,SGD classifier,0.06619293729024443,0.1896551724137931,116
+Statins,PostIndex,Women,SGD classifier,0.10153964273315952,0.1810344827586207,116
+Statins,PostIndex,Women,SGD classifier,0.13899145253004522,0.14655172413793102,116
+Statins,PostIndex,Women,SGD classifier,0.18569267870798806,0.21551724137931033,116
+Statins,PostIndex,Women,SGD classifier,0.24583014166950076,0.22413793103448276,116
+Statins,PostIndex,Women,SGD classifier,0.3193476817078273,0.3448275862068966,116
+Statins,PostIndex,Women,SGD classifier,0.434788241090622,0.31896551724137934,116
+Statins,PostIndex,Women,SGD classifier,0.6290415729629545,0.5565217391304348,115
+Statins,PostIndex,Women,SGD classifier,0.8902926675968111,0.7739130434782608,115
+Statins,PostIndex,Women,K-nearest neighbors,0.0,0.27586206896551724,116
+Statins,PostIndex,Women,K-nearest neighbors,0.0,0.23275862068965517,116
+Statins,PostIndex,Women,K-nearest neighbors,0.0,0.2413793103448276,116
+Statins,PostIndex,Women,K-nearest neighbors,0.005747126436781609,0.25862068965517243,116
+Statins,PostIndex,Women,K-nearest neighbors,0.33333333333333337,0.3275862068965517,116
+Statins,PostIndex,Women,K-nearest neighbors,0.33333333333333337,0.3017241379310345,116
+Statins,PostIndex,Women,K-nearest neighbors,0.33333333333333337,0.28448275862068967,116
+Statins,PostIndex,Women,K-nearest neighbors,0.33333333333333337,0.3620689655172414,116
+Statins,PostIndex,Women,K-nearest neighbors,0.5942028985507248,0.3652173913043478,115
+Statins,PostIndex,Women,K-nearest neighbors,0.7507246376811595,0.45217391304347826,115
+Statins,PostIndex,Men,Penalised logistic regression,0.04800239017583131,0.09433962264150944,106
+Statins,PostIndex,Men,Penalised logistic regression,0.08188983200935428,0.04716981132075472,106
+Statins,PostIndex,Men,Penalised logistic regression,0.10741780562295936,0.10476190476190476,105
+Statins,PostIndex,Men,Penalised logistic regression,0.1349109159004363,0.13333333333333333,105
+Statins,PostIndex,Men,Penalised logistic regression,0.17235457276974817,0.20952380952380953,105
+Statins,PostIndex,Men,Penalised logistic regression,0.21884827182506222,0.17142857142857143,105
+Statins,PostIndex,Men,Penalised logistic regression,0.2752794812083479,0.2761904761904762,105
+Statins,PostIndex,Men,Penalised logistic regression,0.367769365113911,0.3619047619047619,105
+Statins,PostIndex,Men,Penalised logistic regression,0.5545212646936717,0.5714285714285714,105
+Statins,PostIndex,Men,Penalised logistic regression,0.8587898106481686,0.7619047619047619,105
+Statins,PostIndex,Men,Random forest,0.05641509433962263,0.05660377358490566,106
+Statins,PostIndex,Men,Random forest,0.11773584905660381,0.1320754716981132,106
+Statins,PostIndex,Men,Random forest,0.16285714285714284,0.11428571428571428,105
+Statins,PostIndex,Men,Random forest,0.21047619047619048,0.14285714285714285,105
+Statins,PostIndex,Men,Random forest,0.2493333333333333,0.1619047619047619,105
+Statins,PostIndex,Men,Random forest,0.29066666666666663,0.21904761904761905,105
+Statins,PostIndex,Men,Random forest,0.34076190476190477,0.26666666666666666,105
+Statins,PostIndex,Men,Random forest,0.4055238095238095,0.3619047619047619,105
+Statins,PostIndex,Men,Random forest,0.487047619047619,0.6095238095238096,105
+Statins,PostIndex,Men,Random forest,0.628,0.6666666666666666,105
+Statins,PostIndex,Men,Neural network,0.021585451174270798,0.10377358490566038,106
+Statins,PostIndex,Men,Neural network,0.05471938890491846,0.1320754716981132,106
+Statins,PostIndex,Men,Neural network,0.08557986925440643,0.09523809523809523,105
+Statins,PostIndex,Men,Neural network,0.11601077510880975,0.19047619047619047,105
+Statins,PostIndex,Men,Neural network,0.15542849026708364,0.2,105
+Statins,PostIndex,Men,Neural network,0.20797866970106216,0.20952380952380953,105
+Statins,PostIndex,Men,Neural network,0.27606544712868647,0.20952380952380953,105
+Statins,PostIndex,Men,Neural network,0.3812763295431629,0.4095238095238095,105
+Statins,PostIndex,Men,Neural network,0.5420506996820477,0.4857142857142857,105
+Statins,PostIndex,Men,Neural network,0.8267098480440802,0.6952380952380952,105
+Statins,PostIndex,Men,XGBoost,0.0008236085996031761,0.08490566037735849,106
+Statins,PostIndex,Men,XGBoost,0.0021958451252430677,0.12264150943396226,106
+Statins,PostIndex,Men,XGBoost,0.004329353105276823,0.06666666666666667,105
+Statins,PostIndex,Men,XGBoost,0.00803696271032095,0.08571428571428572,105
+Statins,PostIndex,Men,XGBoost,0.015994258224964142,0.19047619047619047,105
+Statins,PostIndex,Men,XGBoost,0.03407793119549751,0.21904761904761905,105
+Statins,PostIndex,Men,XGBoost,0.08005739003419876,0.2761904761904762,105
+Statins,PostIndex,Men,XGBoost,0.2611514627933502,0.29523809523809524,105
+Statins,PostIndex,Men,XGBoost,0.7921901941299438,0.5333333333333333,105
+Statins,PostIndex,Men,XGBoost,0.9899703860282898,0.8571428571428571,105
+Statins,PostIndex,Men,Gradient boosting,0.09718769407667276,0.05660377358490566,106
+Statins,PostIndex,Men,Gradient boosting,0.1104513619833044,0.05660377358490566,106
+Statins,PostIndex,Men,Gradient boosting,0.1252858158523725,0.05714285714285714,105
+Statins,PostIndex,Men,Gradient boosting,0.1539488000963854,0.1619047619047619,105
+Statins,PostIndex,Men,Gradient boosting,0.1858452292073895,0.1523809523809524,105
+Statins,PostIndex,Men,Gradient boosting,0.2147529510080003,0.1523809523809524,105
+Statins,PostIndex,Men,Gradient boosting,0.2518455935297764,0.34285714285714286,105
+Statins,PostIndex,Men,Gradient boosting,0.3297424773689506,0.2857142857142857,105
+Statins,PostIndex,Men,Gradient boosting,0.6145177367025006,0.580952380952381,105
+Statins,PostIndex,Men,Gradient boosting,0.8177105295130707,0.8857142857142857,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.0505583218373129,0.12264150943396226,106
+Statins,PostIndex,Men,Histogram gradient boosting,0.07063848324940436,0.0660377358490566,106
+Statins,PostIndex,Men,Histogram gradient boosting,0.08876241578128552,0.09523809523809523,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.11212453974913936,0.12380952380952381,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.14175733886006836,0.13333333333333333,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.18592412025026617,0.20952380952380953,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.2507220821685721,0.24761904761904763,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.37588792592318315,0.3047619047619048,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.6182397310856894,0.5523809523809524,105
+Statins,PostIndex,Men,Histogram gradient boosting,0.8880571625376459,0.8761904761904762,105
+Statins,PostIndex,Men,Bagging,0.03190394511149229,0.08490566037735849,106
+Statins,PostIndex,Men,Bagging,0.07701543739279587,0.0660377358490566,106
+Statins,PostIndex,Men,Bagging,0.12025974025974022,0.13333333333333333,105
+Statins,PostIndex,Men,Bagging,0.16632034632034634,0.14285714285714285,105
+Statins,PostIndex,Men,Bagging,0.20692640692640688,0.18095238095238095,105
+Statins,PostIndex,Men,Bagging,0.252987012987013,0.1619047619047619,105
+Statins,PostIndex,Men,Bagging,0.31012987012987014,0.2571428571428571,105
+Statins,PostIndex,Men,Bagging,0.40813852813852813,0.2761904761904762,105
+Statins,PostIndex,Men,Bagging,0.6212987012987015,0.580952380952381,105
+Statins,PostIndex,Men,Bagging,0.8043290043290044,0.8476190476190476,105
+Statins,PostIndex,Men,SGD classifier,0.015906230331138336,0.10377358490566038,106
+Statins,PostIndex,Men,SGD classifier,0.04063806404282912,0.07547169811320754,106
+Statins,PostIndex,Men,SGD classifier,0.0641456929572891,0.1523809523809524,105
+Statins,PostIndex,Men,SGD classifier,0.09927658475884521,0.19047619047619047,105
+Statins,PostIndex,Men,SGD classifier,0.14516566890280863,0.20952380952380953,105
+Statins,PostIndex,Men,SGD classifier,0.21432311151828762,0.20952380952380953,105
+Statins,PostIndex,Men,SGD classifier,0.31328917169216686,0.24761904761904763,105
+Statins,PostIndex,Men,SGD classifier,0.46113709910611916,0.3333333333333333,105
+Statins,PostIndex,Men,SGD classifier,0.6792567094923759,0.5238095238095238,105
+Statins,PostIndex,Men,SGD classifier,0.9140415688646285,0.6857142857142857,105
+Statins,PostIndex,Men,K-nearest neighbors,0.0,0.25471698113207547,106
+Statins,PostIndex,Men,K-nearest neighbors,0.0,0.2830188679245283,106
+Statins,PostIndex,Men,K-nearest neighbors,0.0,0.18095238095238095,105
+Statins,PostIndex,Men,K-nearest neighbors,0.0,0.23809523809523808,105
+Statins,PostIndex,Men,K-nearest neighbors,0.23809523809523808,0.3047619047619048,105
+Statins,PostIndex,Men,K-nearest neighbors,0.3333333333333333,0.3047619047619048,105
+Statins,PostIndex,Men,K-nearest neighbors,0.3333333333333333,0.22857142857142856,105
+Statins,PostIndex,Men,K-nearest neighbors,0.3333333333333333,0.26666666666666666,105
+Statins,PostIndex,Men,K-nearest neighbors,0.5523809523809524,0.3142857142857143,105
+Statins,PostIndex,Men,K-nearest neighbors,0.7269841269841271,0.3523809523809524,105
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.052364863471852756,0.07758620689655173,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.07714959352140734,0.05172413793103448,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.09315258434880642,0.10344827586206896,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.10981526895581313,0.1206896551724138,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.13014020097086296,0.08620689655172414,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.1565811909535057,0.14655172413793102,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.19567763946417152,0.21551724137931033,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.2740463579758978,0.3103448275862069,116
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.4415446772655486,0.46956521739130436,115
+Antihypertensives,PostIndex,Women,Penalised logistic regression,0.7726906050109289,0.808695652173913,115
+Antihypertensives,PostIndex,Women,Random forest,0.04468470917638418,0.1206896551724138,116
+Antihypertensives,PostIndex,Women,Random forest,0.0953933223060412,0.08620689655172414,116
+Antihypertensives,PostIndex,Women,Random forest,0.12873367380915976,0.07758620689655173,116
+Antihypertensives,PostIndex,Women,Random forest,0.1638428034134554,0.1810344827586207,116
+Antihypertensives,PostIndex,Women,Random forest,0.2035616460530083,0.15517241379310345,116
+Antihypertensives,PostIndex,Women,Random forest,0.23953243852112313,0.15517241379310345,116
+Antihypertensives,PostIndex,Women,Random forest,0.2882324525134426,0.21551724137931033,116
+Antihypertensives,PostIndex,Women,Random forest,0.34251404737720625,0.29310344827586204,116
+Antihypertensives,PostIndex,Women,Random forest,0.4191451220651774,0.46956521739130436,115
+Antihypertensives,PostIndex,Women,Random forest,0.5375555236010815,0.6347826086956522,115
+Antihypertensives,PostIndex,Women,Neural network,1.0716817401191661e-07,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,Neural network,3.6360920143764713e-06,0.10344827586206896,116
+Antihypertensives,PostIndex,Women,Neural network,2.44312805504898e-05,0.10344827586206896,116
+Antihypertensives,PostIndex,Women,Neural network,0.00011222460122251081,0.1896551724137931,116
+Antihypertensives,PostIndex,Women,Neural network,0.000427668742685635,0.14655172413793102,116
+Antihypertensives,PostIndex,Women,Neural network,0.002035369495967696,0.1896551724137931,116
+Antihypertensives,PostIndex,Women,Neural network,0.014588702326333433,0.29310344827586204,116
+Antihypertensives,PostIndex,Women,Neural network,0.09794276793011748,0.29310344827586204,116
+Antihypertensives,PostIndex,Women,Neural network,0.6229596058942466,0.3565217391304348,115
+Antihypertensives,PostIndex,Women,Neural network,0.9894014069151581,0.6173913043478261,115
+Antihypertensives,PostIndex,Women,XGBoost,0.00029444374376907945,0.10344827586206896,116
+Antihypertensives,PostIndex,Women,XGBoost,0.0009245756664313376,0.06896551724137931,116
+Antihypertensives,PostIndex,Women,XGBoost,0.0018551080720499158,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,XGBoost,0.0036434747744351625,0.1206896551724138,116
+Antihypertensives,PostIndex,Women,XGBoost,0.007857533171772957,0.14655172413793102,116
+Antihypertensives,PostIndex,Women,XGBoost,0.016407283022999763,0.14655172413793102,116
+Antihypertensives,PostIndex,Women,XGBoost,0.03806121274828911,0.1810344827586207,116
+Antihypertensives,PostIndex,Women,XGBoost,0.12326879054307938,0.3448275862068966,116
+Antihypertensives,PostIndex,Women,XGBoost,0.4513377249240875,0.41739130434782606,115
+Antihypertensives,PostIndex,Women,XGBoost,0.9078080654144287,0.7652173913043478,115
+Antihypertensives,PostIndex,Women,Gradient boosting,0.07503141835727878,0.07758620689655173,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.08679270094383781,0.0603448275862069,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.09752735770616126,0.14655172413793102,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.11289571216476205,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.1337225252712622,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.15779642254848508,0.12931034482758622,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.19258484449338303,0.20689655172413793,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.2628356466790524,0.27586206896551724,116
+Antihypertensives,PostIndex,Women,Gradient boosting,0.4283183652251615,0.4782608695652174,115
+Antihypertensives,PostIndex,Women,Gradient boosting,0.7202742085478547,0.8260869565217391,115
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.02981356319201383,0.0603448275862069,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.04791192657730063,0.1206896551724138,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.06458474625970875,0.15517241379310345,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.08293631289974997,0.0603448275862069,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.10924165680691748,0.1206896551724138,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.14481703306415913,0.16379310344827586,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.19008643710454487,0.27586206896551724,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.2839176435136525,0.21551724137931033,116
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.4785792913906118,0.45217391304347826,115
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,0.7701726754539924,0.7652173913043478,115
+Antihypertensives,PostIndex,Women,Bagging,0.021724137931034487,0.08620689655172414,116
+Antihypertensives,PostIndex,Women,Bagging,0.05206896551724137,0.08620689655172414,116
+Antihypertensives,PostIndex,Women,Bagging,0.08155172413793102,0.11206896551724138,116
+Antihypertensives,PostIndex,Women,Bagging,0.11735632183908044,0.08620689655172414,116
+Antihypertensives,PostIndex,Women,Bagging,0.15844827586206894,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,Bagging,0.2052298850574713,0.1896551724137931,116
+Antihypertensives,PostIndex,Women,Bagging,0.2616091954022988,0.2413793103448276,116
+Antihypertensives,PostIndex,Women,Bagging,0.33051724137931043,0.19827586206896552,116
+Antihypertensives,PostIndex,Women,Bagging,0.4688115942028987,0.46956521739130436,115
+Antihypertensives,PostIndex,Women,Bagging,0.7141449275362318,0.8260869565217391,115
+Antihypertensives,PostIndex,Women,SGD classifier,0.012206943147585265,0.11206896551724138,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.031582756601068566,0.10344827586206896,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.05117582414595689,0.09482758620689655,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.07130973672570104,0.15517241379310345,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.09891225367965689,0.12931034482758622,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.14462827602494344,0.19827586206896552,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.21110870604161028,0.15517241379310345,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.31498076206466774,0.23275862068965517,116
+Antihypertensives,PostIndex,Women,SGD classifier,0.5297529022876528,0.4434782608695652,115
+Antihypertensives,PostIndex,Women,SGD classifier,0.8624941760486567,0.7652173913043478,115
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.0,0.19827586206896552,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.0,0.23275862068965517,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.0,0.19827586206896552,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.07860931116348785,0.25,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.16808939840967155,0.20689655172413793,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.19329220536355618,0.2413793103448276,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.2377522281521654,0.2672413793103448,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.34955484848773033,0.28448275862068967,116
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.43303456643953514,0.24347826086956523,115
+Antihypertensives,PostIndex,Women,K-nearest neighbors,0.6196511251785268,0.2608695652173913,115
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.06382116905366385,0.05660377358490566,106
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.08111722418325704,0.07547169811320754,106
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.09548645191792211,0.1523809523809524,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.11129170580260155,0.13333333333333333,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.1355365904462419,0.14285714285714285,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.1673259482603053,0.19047619047619047,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.21057170712650952,0.22857142857142856,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.2971496093288652,0.2761904761904762,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.481615768627011,0.49523809523809526,105
+Antihypertensives,PostIndex,Men,Penalised logistic regression,0.8234666518721313,0.7523809523809524,105
+Antihypertensives,PostIndex,Men,Random forest,0.05983118172790468,0.11320754716981132,106
+Antihypertensives,PostIndex,Men,Random forest,0.10089374379344589,0.11320754716981132,106
+Antihypertensives,PostIndex,Men,Random forest,0.13759398496240602,0.10476190476190476,105
+Antihypertensives,PostIndex,Men,Random forest,0.1778947368421053,0.14285714285714285,105
+Antihypertensives,PostIndex,Men,Random forest,0.21553884711779445,0.17142857142857143,105
+Antihypertensives,PostIndex,Men,Random forest,0.25704260651629074,0.19047619047619047,105
+Antihypertensives,PostIndex,Men,Random forest,0.304812030075188,0.17142857142857143,105
+Antihypertensives,PostIndex,Men,Random forest,0.37298245614035086,0.38095238095238093,105
+Antihypertensives,PostIndex,Men,Random forest,0.44691729323308277,0.4857142857142857,105
+Antihypertensives,PostIndex,Men,Random forest,0.5471177944862156,0.6285714285714286,105
+Antihypertensives,PostIndex,Men,Neural network,6.973325330046545e-06,0.14150943396226415,106
+Antihypertensives,PostIndex,Men,Neural network,8.80697058276068e-05,0.1792452830188679,106
+Antihypertensives,PostIndex,Men,Neural network,0.00037148650901819866,0.09523809523809523,105
+Antihypertensives,PostIndex,Men,Neural network,0.0012377024040508954,0.1523809523809524,105
+Antihypertensives,PostIndex,Men,Neural network,0.004026547554368598,0.21904761904761905,105
+Antihypertensives,PostIndex,Men,Neural network,0.01159238228204372,0.13333333333333333,105
+Antihypertensives,PostIndex,Men,Neural network,0.0426261738806361,0.23809523809523808,105
+Antihypertensives,PostIndex,Men,Neural network,0.17624084917493693,0.29523809523809524,105
+Antihypertensives,PostIndex,Men,Neural network,0.694888419000318,0.41904761904761906,105
+Antihypertensives,PostIndex,Men,Neural network,0.9895478518498109,0.6285714285714286,105
+Antihypertensives,PostIndex,Men,XGBoost,0.0002655548451002687,0.10377358490566038,106
+Antihypertensives,PostIndex,Men,XGBoost,0.0007834870484657586,0.1509433962264151,106
+Antihypertensives,PostIndex,Men,XGBoost,0.001750961528159678,0.11428571428571428,105
+Antihypertensives,PostIndex,Men,XGBoost,0.003423350164666772,0.13333333333333333,105
+Antihypertensives,PostIndex,Men,XGBoost,0.0065574985928833485,0.12380952380952381,105
+Antihypertensives,PostIndex,Men,XGBoost,0.014025187119841576,0.17142857142857143,105
+Antihypertensives,PostIndex,Men,XGBoost,0.04399007558822632,0.19047619047619047,105
+Antihypertensives,PostIndex,Men,XGBoost,0.15922339260578156,0.29523809523809524,105
+Antihypertensives,PostIndex,Men,XGBoost,0.623408317565918,0.4857142857142857,105
+Antihypertensives,PostIndex,Men,XGBoost,0.9693388938903809,0.7333333333333333,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.09711880283855197,0.03773584905660377,106
+Antihypertensives,PostIndex,Men,Gradient boosting,0.10317343385606947,0.1320754716981132,106
+Antihypertensives,PostIndex,Men,Gradient boosting,0.10906433258702013,0.11428571428571428,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.12053811090463369,0.18095238095238095,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.13744360647627354,0.11428571428571428,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.15649753484041354,0.24761904761904763,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.18756536214169336,0.18095238095238095,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.260728795813594,0.19047619047619047,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.5071762188562098,0.5714285714285714,105
+Antihypertensives,PostIndex,Men,Gradient boosting,0.7619506407106836,0.7333333333333333,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.023986148552362457,0.09433962264150944,106
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.04022058666452146,0.1320754716981132,106
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.054266402224699535,0.10476190476190476,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.06962533189493818,0.13333333333333333,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.08864303615626096,0.13333333333333333,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.1242270786146568,0.1619047619047619,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.1857121573640555,0.20952380952380953,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.29983773770402844,0.29523809523809524,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.5434256616425545,0.47619047619047616,105
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,0.8358114883148732,0.7619047619047619,105
+Antihypertensives,PostIndex,Men,Bagging,0.04275074478649454,0.12264150943396226,106
+Antihypertensives,PostIndex,Men,Bagging,0.07929493545183716,0.11320754716981132,106
+Antihypertensives,PostIndex,Men,Bagging,0.10676691729323307,0.09523809523809523,105
+Antihypertensives,PostIndex,Men,Bagging,0.14255639097744363,0.09523809523809523,105
+Antihypertensives,PostIndex,Men,Bagging,0.17654135338345864,0.2,105
+Antihypertensives,PostIndex,Men,Bagging,0.21754385964912276,0.2,105
+Antihypertensives,PostIndex,Men,Bagging,0.2635087719298246,0.1619047619047619,105
+Antihypertensives,PostIndex,Men,Bagging,0.3312781954887218,0.21904761904761905,105
+Antihypertensives,PostIndex,Men,Bagging,0.5361904761904762,0.5142857142857142,105
+Antihypertensives,PostIndex,Men,Bagging,0.7140852130325814,0.780952380952381,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.012509516387110335,0.1320754716981132,106
+Antihypertensives,PostIndex,Men,SGD classifier,0.028927885826637172,0.10377358490566038,106
+Antihypertensives,PostIndex,Men,SGD classifier,0.048517614363571354,0.14285714285714285,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.07124118598178206,0.1523809523809524,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.09991631341264307,0.14285714285714285,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.1476218910638363,0.23809523809523808,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.22968225924566735,0.2,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.3534858005798802,0.2571428571428571,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.590464757723491,0.4857142857142857,105
+Antihypertensives,PostIndex,Men,SGD classifier,0.90816382103879,0.6476190476190476,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.0,0.2358490566037736,106
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.0,0.1509433962264151,106
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.0,0.2761904761904762,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.12436624182570608,0.26666666666666666,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.17845228866218574,0.2761904761904762,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.2007750998328618,0.23809523809523808,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.24842503987770204,0.26666666666666666,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.36211068933650825,0.24761904761904763,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.44355046066113346,0.21904761904761905,105
+Antihypertensives,PostIndex,Men,K-nearest neighbors,0.6442725718546468,0.3238095238095238,105

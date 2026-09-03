@@ -1,0 +1,12 @@
+# The eight benchmark tasks, with the short identifiers used in the paper.
+# Derived from configs/benchmark.yaml; listed here for reference so a reader can
+# see the full set without running anything.
+
+T1: {outcome: Combined,          variant: PostIndex, sex: Women, predictors: 574}
+T2: {outcome: Combined,          variant: PostIndex, sex: Men,   predictors: 574}
+T3: {outcome: Statins,           variant: PostIndex, sex: Women, predictors: 574}
+T4: {outcome: Statins,           variant: PostIndex, sex: Men,   predictors: 574}
+T5: {outcome: Antihypertensives, variant: PostIndex, sex: Women, predictors: 574}
+T6: {outcome: Antihypertensives, variant: PostIndex, sex: Men,   predictors: 574}
+T7: {outcome: Combined,          variant: Baseline,  sex: Women, predictors: 570}
+T8: {outcome: Combined,          variant: Baseline,  sex: Men,   predictors: 570}

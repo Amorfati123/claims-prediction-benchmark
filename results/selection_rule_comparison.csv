@@ -1,0 +1,9 @@
+Task,Outcome,Variant,Sex,Model selected on CV,CV rule test AUC,CV rule AUC CI low,CV rule AUC CI high,CV rule calibration slope,Model selected on test,Test rule test AUC,Test rule AUC CI low,Test rule AUC CI high,Test rule calibration slope,AUC gain from test selection,Rules disagree
+T1,Combined,PostIndex,Women,Gradient boosting,0.7953,0.7697,0.8219,1.0569,Penalised logistic regression,0.8003,0.7748,0.8259,1.2146,0.005,True
+T2,Combined,PostIndex,Men,Gradient boosting,0.7948,0.7667,0.8214,0.9355,Histogram gradient boosting,0.8019,0.7745,0.829,0.937,0.0071,True
+T3,Statins,PostIndex,Women,Gradient boosting,0.7918,0.7623,0.8197,1.1632,Gradient boosting,0.7918,0.7623,0.8197,1.1632,0.0,False
+T4,Statins,PostIndex,Men,Gradient boosting,0.8251,0.7957,0.8554,1.1827,Gradient boosting,0.8251,0.7957,0.8554,1.1827,0.0,False
+T5,Antihypertensives,PostIndex,Women,Gradient boosting,0.7976,0.7649,0.8294,1.2296,Penalised logistic regression,0.8023,0.768,0.8328,1.0703,0.0047,True
+T6,Antihypertensives,PostIndex,Men,Penalised logistic regression,0.7743,0.742,0.8069,0.8694,Penalised logistic regression,0.7743,0.742,0.8069,0.8694,0.0,False
+T7,Combined,Baseline,Women,Penalised logistic regression,0.6684,0.6385,0.6982,0.819,Penalised logistic regression,0.6684,0.6385,0.6982,0.819,0.0,False
+T8,Combined,Baseline,Men,Gradient boosting,0.6646,0.6326,0.6974,0.893,Random forest,0.6681,0.6368,0.6996,1.4028,0.0035,True

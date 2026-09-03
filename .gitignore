@@ -1,0 +1,25 @@
+# Nothing derived from patient level data belongs in this repository.
+data/raw/
+data/prepared/
+*.npz
+*.joblib
+*.pkl
+work/
+
+# Generated outputs, regenerate with make tables and make figures.
+tables/*.csv
+figures/*.png
+figures/*.pdf
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.DS_Store

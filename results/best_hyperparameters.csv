@@ -1,0 +1,249 @@
+Outcome,Variant,Sex,Model,Parameter,Value
+Combined,PostIndex,Women,Penalised logistic regression,C,0.01778279410038923
+Combined,PostIndex,Women,Penalised logistic regression,l1_ratio,1.0
+Combined,PostIndex,Women,Random forest,max_depth,15
+Combined,PostIndex,Women,Random forest,n_estimators,200
+Combined,PostIndex,Women,Neural network,alpha,0.000211
+Combined,PostIndex,Women,Neural network,early_stopping,True
+Combined,PostIndex,Women,Neural network,hidden_layer_sizes,"(660,)"
+Combined,PostIndex,Women,Neural network,learning_rate_init,0.0041
+Combined,PostIndex,Women,XGBoost,max_depth,20
+Combined,PostIndex,Women,XGBoost,n_estimators,30
+Combined,PostIndex,Women,XGBoost,subsample,0.9
+Combined,PostIndex,Women,Gradient boosting,max_features,0.96
+Combined,PostIndex,Women,Gradient boosting,n_estimators,170
+Combined,PostIndex,Women,Gradient boosting,n_iter_no_change,5
+Combined,PostIndex,Women,Gradient boosting,subsample,1.0
+Combined,PostIndex,Women,Gradient boosting,validation_fraction,0.01
+Combined,PostIndex,Women,Histogram gradient boosting,learning_rate,0.07
+Combined,PostIndex,Women,Histogram gradient boosting,max_depth,20
+Combined,PostIndex,Women,Histogram gradient boosting,n_iter_no_change,10
+Combined,PostIndex,Women,Histogram gradient boosting,validation_fraction,0.02
+Combined,PostIndex,Women,Bagging,max_features,0.58
+Combined,PostIndex,Women,Bagging,max_samples,0.1
+Combined,PostIndex,Women,Bagging,n_estimators,190
+Combined,PostIndex,Women,SGD classifier,alpha,0.000951
+Combined,PostIndex,Women,SGD classifier,early_stopping,False
+Combined,PostIndex,Women,SGD classifier,loss,log_loss
+Combined,PostIndex,Women,SGD classifier,n_iter_no_change,35
+Combined,PostIndex,Women,SGD classifier,validation_fraction,0.36
+Combined,PostIndex,Women,K-nearest neighbors,n_neighbors,9
+Combined,PostIndex,Women,K-nearest neighbors,p,2
+Combined,PostIndex,Women,K-nearest neighbors,weights,distance
+Combined,PostIndex,Men,Penalised logistic regression,C,0.05623413251903491
+Combined,PostIndex,Men,Penalised logistic regression,l1_ratio,0.95
+Combined,PostIndex,Men,Random forest,max_depth,15
+Combined,PostIndex,Men,Random forest,n_estimators,200
+Combined,PostIndex,Men,Neural network,alpha,0.000161
+Combined,PostIndex,Men,Neural network,early_stopping,True
+Combined,PostIndex,Men,Neural network,hidden_layer_sizes,"(830,)"
+Combined,PostIndex,Men,Neural network,learning_rate_init,0.0001
+Combined,PostIndex,Men,XGBoost,max_depth,15
+Combined,PostIndex,Men,XGBoost,n_estimators,80
+Combined,PostIndex,Men,XGBoost,subsample,0.9
+Combined,PostIndex,Men,Gradient boosting,max_features,0.4
+Combined,PostIndex,Men,Gradient boosting,n_estimators,110
+Combined,PostIndex,Men,Gradient boosting,n_iter_no_change,45
+Combined,PostIndex,Men,Gradient boosting,subsample,0.8
+Combined,PostIndex,Men,Gradient boosting,validation_fraction,0.05
+Combined,PostIndex,Men,Histogram gradient boosting,learning_rate,0.07
+Combined,PostIndex,Men,Histogram gradient boosting,max_depth,20
+Combined,PostIndex,Men,Histogram gradient boosting,n_iter_no_change,10
+Combined,PostIndex,Men,Histogram gradient boosting,validation_fraction,0.02
+Combined,PostIndex,Men,Bagging,max_features,0.66
+Combined,PostIndex,Men,Bagging,max_samples,0.2
+Combined,PostIndex,Men,Bagging,n_estimators,200
+Combined,PostIndex,Men,SGD classifier,alpha,0.000871
+Combined,PostIndex,Men,SGD classifier,early_stopping,False
+Combined,PostIndex,Men,SGD classifier,loss,log_loss
+Combined,PostIndex,Men,SGD classifier,n_iter_no_change,25
+Combined,PostIndex,Men,SGD classifier,validation_fraction,0.04
+Combined,PostIndex,Men,K-nearest neighbors,n_neighbors,15
+Combined,PostIndex,Men,K-nearest neighbors,p,2
+Combined,PostIndex,Men,K-nearest neighbors,weights,distance
+Combined,Baseline,Women,Penalised logistic regression,C,0.05623413251903491
+Combined,Baseline,Women,Penalised logistic regression,l1_ratio,0.7
+Combined,Baseline,Women,Random forest,max_depth,5
+Combined,Baseline,Women,Random forest,n_estimators,110
+Combined,Baseline,Women,Neural network,alpha,0.000161
+Combined,Baseline,Women,Neural network,early_stopping,True
+Combined,Baseline,Women,Neural network,hidden_layer_sizes,"(730, 730)"
+Combined,Baseline,Women,Neural network,learning_rate_init,0.0051
+Combined,Baseline,Women,XGBoost,max_depth,30
+Combined,Baseline,Women,XGBoost,n_estimators,180
+Combined,Baseline,Women,XGBoost,subsample,1.0
+Combined,Baseline,Women,Gradient boosting,max_features,0.72
+Combined,Baseline,Women,Gradient boosting,n_estimators,170
+Combined,Baseline,Women,Gradient boosting,n_iter_no_change,50
+Combined,Baseline,Women,Gradient boosting,subsample,0.5
+Combined,Baseline,Women,Gradient boosting,validation_fraction,0.03
+Combined,Baseline,Women,Histogram gradient boosting,learning_rate,0.1
+Combined,Baseline,Women,Histogram gradient boosting,max_depth,40
+Combined,Baseline,Women,Histogram gradient boosting,n_iter_no_change,10
+Combined,Baseline,Women,Histogram gradient boosting,validation_fraction,0.06
+Combined,Baseline,Women,Bagging,max_features,0.48
+Combined,Baseline,Women,Bagging,max_samples,0.3
+Combined,Baseline,Women,Bagging,n_estimators,190
+Combined,Baseline,Women,SGD classifier,alpha,0.000431
+Combined,Baseline,Women,SGD classifier,early_stopping,False
+Combined,Baseline,Women,SGD classifier,loss,log_loss
+Combined,Baseline,Women,SGD classifier,n_iter_no_change,50
+Combined,Baseline,Women,SGD classifier,validation_fraction,0.49
+Combined,Baseline,Women,K-nearest neighbors,n_neighbors,25
+Combined,Baseline,Women,K-nearest neighbors,p,1
+Combined,Baseline,Women,K-nearest neighbors,weights,distance
+Combined,Baseline,Men,Penalised logistic regression,C,0.05623413251903491
+Combined,Baseline,Men,Penalised logistic regression,l1_ratio,0.7
+Combined,Baseline,Men,Random forest,max_depth,5
+Combined,Baseline,Men,Random forest,n_estimators,110
+Combined,Baseline,Men,Neural network,alpha,9.1e-05
+Combined,Baseline,Men,Neural network,early_stopping,True
+Combined,Baseline,Men,Neural network,hidden_layer_sizes,"(70, 70)"
+Combined,Baseline,Men,Neural network,learning_rate_init,0.0051
+Combined,Baseline,Men,XGBoost,max_depth,5
+Combined,Baseline,Men,XGBoost,n_estimators,30
+Combined,Baseline,Men,XGBoost,subsample,1.0
+Combined,Baseline,Men,Gradient boosting,max_features,0.9
+Combined,Baseline,Men,Gradient boosting,n_estimators,110
+Combined,Baseline,Men,Gradient boosting,n_iter_no_change,10
+Combined,Baseline,Men,Gradient boosting,subsample,0.7
+Combined,Baseline,Men,Gradient boosting,validation_fraction,0.13
+Combined,Baseline,Men,Histogram gradient boosting,learning_rate,0.07
+Combined,Baseline,Men,Histogram gradient boosting,max_depth,20
+Combined,Baseline,Men,Histogram gradient boosting,n_iter_no_change,10
+Combined,Baseline,Men,Histogram gradient boosting,validation_fraction,0.02
+Combined,Baseline,Men,Bagging,max_features,0.94
+Combined,Baseline,Men,Bagging,max_samples,0.4
+Combined,Baseline,Men,Bagging,n_estimators,150
+Combined,Baseline,Men,SGD classifier,alpha,0.000511
+Combined,Baseline,Men,SGD classifier,early_stopping,False
+Combined,Baseline,Men,SGD classifier,loss,log_loss
+Combined,Baseline,Men,SGD classifier,n_iter_no_change,40
+Combined,Baseline,Men,SGD classifier,validation_fraction,0.06
+Combined,Baseline,Men,K-nearest neighbors,n_neighbors,17
+Combined,Baseline,Men,K-nearest neighbors,p,1
+Combined,Baseline,Men,K-nearest neighbors,weights,distance
+Statins,PostIndex,Women,Penalised logistic regression,C,0.05623413251903491
+Statins,PostIndex,Women,Penalised logistic regression,l1_ratio,0.7
+Statins,PostIndex,Women,Random forest,max_depth,15
+Statins,PostIndex,Women,Random forest,n_estimators,110
+Statins,PostIndex,Women,Neural network,alpha,0.000931
+Statins,PostIndex,Women,Neural network,early_stopping,True
+Statins,PostIndex,Women,Neural network,hidden_layer_sizes,"(660,)"
+Statins,PostIndex,Women,Neural network,learning_rate_init,0.0041
+Statins,PostIndex,Women,XGBoost,max_depth,20
+Statins,PostIndex,Women,XGBoost,n_estimators,30
+Statins,PostIndex,Women,XGBoost,subsample,0.9
+Statins,PostIndex,Women,Gradient boosting,max_features,0.52
+Statins,PostIndex,Women,Gradient boosting,n_estimators,150
+Statins,PostIndex,Women,Gradient boosting,n_iter_no_change,5
+Statins,PostIndex,Women,Gradient boosting,subsample,0.9
+Statins,PostIndex,Women,Gradient boosting,validation_fraction,0.07
+Statins,PostIndex,Women,Histogram gradient boosting,learning_rate,0.09
+Statins,PostIndex,Women,Histogram gradient boosting,max_depth,20
+Statins,PostIndex,Women,Histogram gradient boosting,n_iter_no_change,15
+Statins,PostIndex,Women,Histogram gradient boosting,validation_fraction,0.07
+Statins,PostIndex,Women,Bagging,max_features,0.8
+Statins,PostIndex,Women,Bagging,max_samples,0.3
+Statins,PostIndex,Women,Bagging,n_estimators,100
+Statins,PostIndex,Women,SGD classifier,alpha,0.000431
+Statins,PostIndex,Women,SGD classifier,early_stopping,False
+Statins,PostIndex,Women,SGD classifier,loss,log_loss
+Statins,PostIndex,Women,SGD classifier,n_iter_no_change,35
+Statins,PostIndex,Women,SGD classifier,validation_fraction,0.14
+Statins,PostIndex,Women,K-nearest neighbors,n_neighbors,3
+Statins,PostIndex,Women,K-nearest neighbors,p,2
+Statins,PostIndex,Women,K-nearest neighbors,weights,uniform
+Statins,PostIndex,Men,Penalised logistic regression,C,0.1778279410038923
+Statins,PostIndex,Men,Penalised logistic regression,l1_ratio,0.9
+Statins,PostIndex,Men,Random forest,max_depth,295
+Statins,PostIndex,Men,Random forest,n_estimators,50
+Statins,PostIndex,Men,Neural network,alpha,0.000961
+Statins,PostIndex,Men,Neural network,early_stopping,True
+Statins,PostIndex,Men,Neural network,hidden_layer_sizes,"(690,)"
+Statins,PostIndex,Men,Neural network,learning_rate_init,0.0011
+Statins,PostIndex,Men,XGBoost,max_depth,35
+Statins,PostIndex,Men,XGBoost,n_estimators,90
+Statins,PostIndex,Men,XGBoost,subsample,1.0
+Statins,PostIndex,Men,Gradient boosting,max_features,0.68
+Statins,PostIndex,Men,Gradient boosting,n_estimators,180
+Statins,PostIndex,Men,Gradient boosting,n_iter_no_change,5
+Statins,PostIndex,Men,Gradient boosting,subsample,0.8
+Statins,PostIndex,Men,Gradient boosting,validation_fraction,0.08
+Statins,PostIndex,Men,Histogram gradient boosting,learning_rate,0.1
+Statins,PostIndex,Men,Histogram gradient boosting,max_depth,40
+Statins,PostIndex,Men,Histogram gradient boosting,n_iter_no_change,10
+Statins,PostIndex,Men,Histogram gradient boosting,validation_fraction,0.06
+Statins,PostIndex,Men,Bagging,max_features,0.98
+Statins,PostIndex,Men,Bagging,max_samples,0.4
+Statins,PostIndex,Men,Bagging,n_estimators,110
+Statins,PostIndex,Men,SGD classifier,alpha,0.000491
+Statins,PostIndex,Men,SGD classifier,early_stopping,False
+Statins,PostIndex,Men,SGD classifier,loss,log_loss
+Statins,PostIndex,Men,SGD classifier,n_iter_no_change,30
+Statins,PostIndex,Men,SGD classifier,validation_fraction,0.5
+Statins,PostIndex,Men,K-nearest neighbors,n_neighbors,3
+Statins,PostIndex,Men,K-nearest neighbors,p,2
+Statins,PostIndex,Men,K-nearest neighbors,weights,uniform
+Antihypertensives,PostIndex,Women,Penalised logistic regression,C,0.05623413251903491
+Antihypertensives,PostIndex,Women,Penalised logistic regression,l1_ratio,0.7
+Antihypertensives,PostIndex,Women,Random forest,max_depth,35
+Antihypertensives,PostIndex,Women,Random forest,n_estimators,110
+Antihypertensives,PostIndex,Women,Neural network,alpha,1e-06
+Antihypertensives,PostIndex,Women,Neural network,early_stopping,False
+Antihypertensives,PostIndex,Women,Neural network,hidden_layer_sizes,"(900, 900)"
+Antihypertensives,PostIndex,Women,Neural network,learning_rate_init,0.0001
+Antihypertensives,PostIndex,Women,XGBoost,max_depth,30
+Antihypertensives,PostIndex,Women,XGBoost,n_estimators,120
+Antihypertensives,PostIndex,Women,XGBoost,subsample,0.9
+Antihypertensives,PostIndex,Women,Gradient boosting,max_features,0.66
+Antihypertensives,PostIndex,Women,Gradient boosting,n_estimators,160
+Antihypertensives,PostIndex,Women,Gradient boosting,n_iter_no_change,10
+Antihypertensives,PostIndex,Women,Gradient boosting,subsample,0.5
+Antihypertensives,PostIndex,Women,Gradient boosting,validation_fraction,0.1
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,learning_rate,0.17
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,max_depth,5
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,n_iter_no_change,10
+Antihypertensives,PostIndex,Women,Histogram gradient boosting,validation_fraction,0.28
+Antihypertensives,PostIndex,Women,Bagging,max_features,0.94
+Antihypertensives,PostIndex,Women,Bagging,max_samples,0.4
+Antihypertensives,PostIndex,Women,Bagging,n_estimators,150
+Antihypertensives,PostIndex,Women,SGD classifier,alpha,0.000431
+Antihypertensives,PostIndex,Women,SGD classifier,early_stopping,False
+Antihypertensives,PostIndex,Women,SGD classifier,loss,log_loss
+Antihypertensives,PostIndex,Women,SGD classifier,n_iter_no_change,50
+Antihypertensives,PostIndex,Women,SGD classifier,validation_fraction,0.49
+Antihypertensives,PostIndex,Women,K-nearest neighbors,n_neighbors,5
+Antihypertensives,PostIndex,Women,K-nearest neighbors,p,1
+Antihypertensives,PostIndex,Women,K-nearest neighbors,weights,distance
+Antihypertensives,PostIndex,Men,Penalised logistic regression,C,0.05623413251903491
+Antihypertensives,PostIndex,Men,Penalised logistic regression,l1_ratio,0.8
+Antihypertensives,PostIndex,Men,Random forest,max_depth,335
+Antihypertensives,PostIndex,Men,Random forest,n_estimators,190
+Antihypertensives,PostIndex,Men,Neural network,alpha,0.000941
+Antihypertensives,PostIndex,Men,Neural network,early_stopping,False
+Antihypertensives,PostIndex,Men,Neural network,hidden_layer_sizes,"(370,)"
+Antihypertensives,PostIndex,Men,Neural network,learning_rate_init,0.0001
+Antihypertensives,PostIndex,Men,XGBoost,max_depth,10
+Antihypertensives,PostIndex,Men,XGBoost,n_estimators,170
+Antihypertensives,PostIndex,Men,XGBoost,subsample,0.9
+Antihypertensives,PostIndex,Men,Gradient boosting,max_features,0.54
+Antihypertensives,PostIndex,Men,Gradient boosting,n_estimators,70
+Antihypertensives,PostIndex,Men,Gradient boosting,n_iter_no_change,10
+Antihypertensives,PostIndex,Men,Gradient boosting,subsample,0.5
+Antihypertensives,PostIndex,Men,Gradient boosting,validation_fraction,0.09
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,learning_rate,0.17
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,max_depth,50
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,n_iter_no_change,20
+Antihypertensives,PostIndex,Men,Histogram gradient boosting,validation_fraction,0.05
+Antihypertensives,PostIndex,Men,Bagging,max_features,0.9
+Antihypertensives,PostIndex,Men,Bagging,max_samples,0.2
+Antihypertensives,PostIndex,Men,Bagging,n_estimators,190
+Antihypertensives,PostIndex,Men,SGD classifier,alpha,0.000511
+Antihypertensives,PostIndex,Men,SGD classifier,early_stopping,False
+Antihypertensives,PostIndex,Men,SGD classifier,loss,log_loss
+Antihypertensives,PostIndex,Men,SGD classifier,n_iter_no_change,40
+Antihypertensives,PostIndex,Men,SGD classifier,validation_fraction,0.06
+Antihypertensives,PostIndex,Men,K-nearest neighbors,n_neighbors,5
+Antihypertensives,PostIndex,Men,K-nearest neighbors,p,1
+Antihypertensives,PostIndex,Men,K-nearest neighbors,weights,distance

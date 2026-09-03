@@ -1,0 +1,9 @@
+Outcome,Variant,Sex,Predictors,N total,N train,N test,Prev overall,Prev train,Prev test,Events overall,Events train
+Combined,PostIndex,Women,574,5790,4632,1158,0.4542,0.4542,0.4542,2630,2104
+Combined,PostIndex,Men,574,5259,4207,1052,0.4362,0.4362,0.4363,2294,1835
+Combined,Baseline,Women,570,5790,4632,1158,0.4542,0.4542,0.4542,2630,2104
+Combined,Baseline,Men,570,5259,4207,1052,0.4362,0.4362,0.4363,2294,1835
+Statins,PostIndex,Women,574,5790,4632,1158,0.3102,0.3102,0.31,1796,1437
+Statins,PostIndex,Men,574,5259,4207,1052,0.2729,0.2729,0.2728,1435,1148
+Antihypertensives,PostIndex,Women,574,5790,4632,1158,0.2385,0.2386,0.2383,1381,1105
+Antihypertensives,PostIndex,Men,574,5259,4207,1052,0.25,0.2501,0.25,1315,1052

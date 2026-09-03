@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Algorithm choice and model selection in claims-based clinical prediction
+message: If you use this code, please cite the paper below.
+type: software
+authors:
+  - given-names: "[FIRST NAME]"
+    family-names: "[SURNAME]"
+    affiliation: "[INSTITUTION]"
+  - given-names: Jenny
+    family-names: Lo-Ciganic
+    affiliation: University of Pittsburgh
+  - given-names: Hend
+    family-names: Mansoor
+    affiliation: "[INSTITUTION]"
+repository-code: "[REPOSITORY URL]"
+license: MIT
+version: 1.0.0
+preferred-citation:
+  type: conference-paper
+  title: "Algorithm choice and model selection in claims-based clinical prediction: a controlled benchmark of 72 models across eight tasks"
+  authors:
+    - given-names: "[FIRST NAME]"
+      family-names: "[SURNAME]"
+    - given-names: Jenny
+      family-names: Lo-Ciganic
+    - given-names: Hend
+      family-names: Mansoor
+  collection-title: AMIA 2027 Amplify Informatics Summit
+  year: 2027

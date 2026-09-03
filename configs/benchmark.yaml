@@ -1,0 +1,52 @@
+# Every setting that changes a result. One seed governs the split, the folds,
+# the search, the stochastic parts of each algorithm and the bootstrap, so the
+# whole benchmark reproduces exactly from the same inputs.
+
+split:
+  test_size: 0.20
+  random_state: 42
+
+tuning:
+  cv_folds: 5
+  n_search_iter: 100
+  metric: f1_macro
+
+evaluation:
+  n_bootstrap: 1000
+  calibration_bins: 10
+
+# The binary non-adherence indicators at the 0.80 threshold, where 1 means the
+# patient did not meet the threshold.
+outcomes:
+  Combined: class
+  Statins: pdc_statin_80
+  Antihypertensives: pdc_ANTIHYPERTENSIVE_80
+
+# The post-index variant uses everything available. The baseline variant removes
+# adherence measured in the three months after discharge, so only information
+# known at the point of discharge is used.
+variants:
+  PostIndex: []
+  Baseline:
+    - statin_PDC_3mon
+    - ANTIHYPERTENSIVE_PDC_3mon
+    - statin_antihyp_pdc_3mon
+    - no_antihypertensive_3mon
+
+# The baseline variant is built for the combined outcome only, which keeps the
+# comparison focused on the primary outcome.
+baseline_outcomes:
+  - Combined
+
+predictor_domains:
+  - sociodemographic
+  - health related
+  - medication related
+  - cost
+  - community SDOH
+
+paths:
+  domain_map: data/schema/domain_map.json
+  matrix_dir: work/matrices
+  model_dir: work/models
+  checkpoint_dir: work/checkpoints
