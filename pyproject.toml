@@ -33,3 +33,12 @@ pythonpath = ["src"]
 [tool.ruff]
 line-length = 100
 target-version = "py310"
+[tool.ruff.lint]
+ignore = [
+    "BLE001",  # the three broad excepts are deliberate: a failed model is
+               # recorded and the run continues rather than dying overnight
+    "ISC004",  # implicit string concatenation in the figure callout key
+    "C408",    # dict() call in matplotlib arrowprops
+    "PLW1508", # SLURM_CPUS_PER_TASK default is intentionally an int
+    "RUF046",
+]
