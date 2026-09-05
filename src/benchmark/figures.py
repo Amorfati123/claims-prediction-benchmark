@@ -6,6 +6,7 @@ is written; if one of them fails the figure is wrong and nothing is saved.
 """
 
 import matplotlib
+
 matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt

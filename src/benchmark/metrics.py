@@ -15,8 +15,15 @@ always computed together and never reported apart.
 import numpy as np
 from scipy.optimize import brentq
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (accuracy_score, brier_score_loss, cohen_kappa_score,
-                             confusion_matrix, f1_score, roc_auc_score, roc_curve)
+from sklearn.metrics import (
+    accuracy_score,
+    brier_score_loss,
+    cohen_kappa_score,
+    confusion_matrix,
+    f1_score,
+    roc_auc_score,
+    roc_curve,
+)
 
 from .config import CALIBRATION_BINS, N_BOOTSTRAP, RANDOM_STATE
 
@@ -119,4 +126,4 @@ def calibration_curve_points(y_true, y_score, n_bins=CALIBRATION_BINS):
     order = np.argsort(y_score)
     bins = np.array_split(order, n_bins)
     return [{'predicted': float(y_score[b].mean()), 'observed': float(y_true[b].mean()),
-             'n': int(len(b))} for b in bins if len(b)]
+             'n': len(b)} for b in bins if len(b)]

@@ -20,15 +20,19 @@ import joblib
 import numpy as np
 from sklearn.base import clone
 from sklearn.metrics import roc_auc_score
-from sklearn.model_selection import (RandomizedSearchCV, StratifiedKFold,
-                                     cross_val_predict)
+from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold, cross_val_predict
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 from . import config as cfg
 from .algorithms import ALGORITHMS
-from .metrics import (bootstrap_intervals, calibration_curve_points, calibration_metrics,
-                      classification_metrics, youden_threshold)
+from .metrics import (
+    bootstrap_intervals,
+    calibration_curve_points,
+    calibration_metrics,
+    classification_metrics,
+    youden_threshold,
+)
 
 EMPTY_STATE = {'results': [], 'best_params': [], 'calibration_curve': []}
 

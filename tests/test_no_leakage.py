@@ -4,7 +4,6 @@ If any of these fail, nothing else in the repository is worth reading.
 """
 
 import numpy as np
-import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 

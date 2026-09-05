@@ -13,8 +13,12 @@ The search spaces are written as explicit lists so the sampled combinations are
 reproducible.
 """
 
-from sklearn.ensemble import (BaggingClassifier, GradientBoostingClassifier,
-                              HistGradientBoostingClassifier, RandomForestClassifier)
+from sklearn.ensemble import (
+    BaggingClassifier,
+    GradientBoostingClassifier,
+    HistGradientBoostingClassifier,
+    RandomForestClassifier,
+)
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier

@@ -3,8 +3,7 @@
 import numpy as np
 import pytest
 
-from benchmark.metrics import (calibration_metrics, classification_metrics,
-                               youden_threshold)
+from benchmark.metrics import calibration_metrics, classification_metrics, youden_threshold
 
 
 def test_perfectly_calibrated_predictions_give_a_slope_near_one():
