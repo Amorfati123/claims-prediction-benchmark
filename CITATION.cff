@@ -3,24 +3,24 @@ title: Algorithm choice and model selection in claims-based clinical prediction
 message: If you use this code, please cite the paper below.
 type: software
 authors:
-  - given-names: "[FIRST NAME]"
-    family-names: "[SURNAME]"
-    affiliation: "[INSTITUTION]"
+  - given-names: "[Shikhar]"
+    family-names: "[Shukla]"
+    affiliation: "[University of Kentucky]"
   - given-names: Jenny
     family-names: Lo-Ciganic
     affiliation: University of Pittsburgh
   - given-names: Hend
     family-names: Mansoor
-    affiliation: "[INSTITUTION]"
-repository-code: "[REPOSITORY URL]"
+    affiliation: "[University of Kentucky]"
+repository-code: "[https://github.com/Amorfati123/claims-prediction-benchmark]"
 license: MIT
 version: 1.0.0
 preferred-citation:
   type: conference-paper
   title: "Algorithm choice and model selection in claims-based clinical prediction: a controlled benchmark of 72 models across eight tasks"
   authors:
-    - given-names: "[FIRST NAME]"
-      family-names: "[SURNAME]"
+    - given-names: "[Shikhsr]"
+      family-names: "[Shukla]"
     - given-names: Jenny
       family-names: Lo-Ciganic
     - given-names: Hend
